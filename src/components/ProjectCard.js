@@ -1,6 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import LinkButton from "./LinkButton";
 import Panel from "./Panel";
+import TechStack from "./TechStack";
 
 
 const ProjectCard = ({ project }) => {
@@ -10,12 +12,13 @@ const ProjectCard = ({ project }) => {
             <ProjectTitle background={image}>
                 <h2>{project.name}</h2>
             </ProjectTitle>
+            <TechStack techStack={project.techStack} />
             <ProjectDetails>
                 <p>{project.blurb}</p>
             </ProjectDetails>
             <ProjectButtons>
-                <button>Repo</button>
-                <button>Demo</button>
+                <LinkButton href={project.repo} text="Repo" />
+                <LinkButton href={project.demo} text="Demo" />
             </ProjectButtons>
 
 
@@ -45,9 +48,10 @@ const ProjectTitle = styled.div`
 `;
 
 const ProjectDetails = styled.div`
-    padding:1rem;
+    padding:0.5rem 1.5rem 0.5rem 1.5rem;
 
    p{
+        text-align:center;
         margin:0;
    }
 `;
@@ -55,6 +59,7 @@ const ProjectDetails = styled.div`
 const ProjectButtons = styled.div`
     display:flex;
     justify-content: space-around;
+    margin:1rem;
 `
 
 export default ProjectCard;

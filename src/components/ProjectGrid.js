@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ProjectCard from "./ProjectCard";
+import Panel from "./Panel";
 import { devices } from "../helpers/ScreenSizes";
 
 const ProjectGrid = ({ projects }) => {
@@ -9,9 +10,13 @@ const ProjectGrid = ({ projects }) => {
     ));
 
     return (
-        <StyledGrid>
-            {projectNodes}
-        </StyledGrid>);
+        <>
+            <TitlePanel><h2>Projects</h2></TitlePanel>
+            <StyledGrid>
+                {projectNodes}
+            </StyledGrid>
+        </>
+    );
 }
 
 const StyledGrid = styled.main`
@@ -28,8 +33,11 @@ const StyledGrid = styled.main`
         grid-template-columns: 1fr 1fr 1fr;
         
     }
-    
+`;
 
-`
+const TitlePanel = styled(Panel)`
+    padding:1rem;
+    margin-bottom:0;
+`;
 
 export default ProjectGrid;

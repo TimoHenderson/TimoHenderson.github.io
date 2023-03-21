@@ -5,7 +5,21 @@
         "image": "catchemall.png",
         "repo": "https://github.com/TimoHenderson/kanto-pokemon-react",
         "demo": "https://timohenderson.github.io/kanto-pokemon-react",
-        "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi",
+        "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi.",
+        "techStack": [
+            "react",
+            "js",
+            "html",
+            "css"
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Recording Tracker",
+        "image": "catchemall.png",
+        "repo": "https://github.com/TimoHenderson/kanto-pokemon-react",
+        "demo": "https://timohenderson.github.io/kanto-pokemon-react",
+        "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi.",
         "techStack": [
             "react",
             "js",
