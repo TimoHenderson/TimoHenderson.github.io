@@ -4,15 +4,13 @@ import ProjectCard from "./ProjectCard";
 import { devices } from "../helpers/ScreenSizes";
 
 const ProjectGrid = ({ projects }) => {
+    const projectNodes = projects.map((project) => (
+        <ProjectCard key={project.id} project={project} />
+    ));
+
     return (
         <StyledGrid>
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
-            <ProjectCard />
+            {projectNodes}
         </StyledGrid>);
 }
 
@@ -25,7 +23,7 @@ const StyledGrid = styled.main`
         grid-template-columns: 1fr 1fr;
         
     }
-    
+
     @media ${devices.laptop}{
         grid-template-columns: 1fr 1fr 1fr;
         

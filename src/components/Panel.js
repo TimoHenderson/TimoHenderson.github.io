@@ -3,9 +3,9 @@ import Theme from "./Theme";
 
 
 
-const Panel = ({ children }) => {
+const Panel = ({ className, children }) => {
     return (<Theme>
-        <StyledPanel>{children}</StyledPanel>
+        <StyledPanel className={className}>{children}</StyledPanel>
     </Theme>);
 }
 
