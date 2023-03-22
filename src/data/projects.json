@@ -16,10 +16,25 @@
     {
         "id": "2",
         "name": "Recording Tracker",
-        "image": "catchemall.png",
-        "repo": "https://github.com/TimoHenderson/kanto-pokemon-react",
-        "demo": "https://timohenderson.github.io/kanto-pokemon-react",
-        "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi.",
+        "image": "recordingtracker.png",
+        "repo": "https://github.com/TimoHenderson/song_recording_tracker",
+        "demo": "",
+        "blurb": "An app to help with the complex task of recording music.",
+        "techStack": [
+            "python",
+            "flask",
+            "postgres",
+            "html",
+            "css"
+        ]
+    },
+    {
+        "id": "3",
+        "name": "Brewdog Beer App",
+        "image": "brewdogbeers.png",
+        "repo": "https://github.com/TimoHenderson/brewdog-api-react",
+        "demo": "https://timohenderson.github.io/brewdog-api-react",
+        "blurb": "An app to browse Brewdog beers and track favourites.",
         "techStack": [
             "react",
             "js",

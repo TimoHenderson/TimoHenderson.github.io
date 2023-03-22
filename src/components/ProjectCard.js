@@ -18,9 +18,8 @@ const ProjectCard = ({ project }) => {
             </ProjectDetails>
             <ProjectButtons>
                 <LinkButton href={project.repo} text="Repo" />
-                <LinkButton href={project.demo} text="Demo" />
+                {project.demo !== "" && <LinkButton href={project.demo} text="Demo" />}
             </ProjectButtons>
-
 
         </CardPanel>);
 }
