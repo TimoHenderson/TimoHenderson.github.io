@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.d6b18484.js",
+    "main.js": "/static/js/main.2ebdeca5.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/catchemall.png": "/static/media/catchemall.93d49ee0458326ea1d19.png",
     "static/media/brewdogbeers.png": "/static/media/brewdogbeers.39f7670c10beff539087.png",
     "static/media/recordingtracker.png": "/static/media/recordingtracker.c76ff8e3f06a7b2794f5.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.d6b18484.js.map": "/static/js/main.d6b18484.js.map",
+    "main.2ebdeca5.js.map": "/static/js/main.2ebdeca5.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d6b18484.js"
+    "static/js/main.2ebdeca5.js"
   ]
 }
