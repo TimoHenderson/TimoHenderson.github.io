@@ -6,6 +6,7 @@
         "repo": "https://github.com/TimoHenderson/kanto-pokemon-react",
         "demo": "https://timohenderson.github.io/kanto-pokemon-react",
         "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi.",
+        "collaborators": [],
         "techStack": [
             "react",
             "js",
@@ -20,6 +21,7 @@
         "repo": "https://github.com/TimoHenderson/song_recording_tracker",
         "demo": "",
         "blurb": "An app to help with the complex task of recording music.",
+        "collaborators": [],
         "techStack": [
             "python",
             "flask",
@@ -30,16 +32,44 @@
     },
     {
         "id": "3",
-        "name": "Brewdog Beer App",
+        "name": "Brewdog Beer Browser",
         "image": "brewdogbeers.png",
         "repo": "https://github.com/TimoHenderson/brewdog-api-react",
         "demo": "https://timohenderson.github.io/brewdog-api-react",
         "blurb": "An app to browse Brewdog beers and track favourites.",
+        "collaborators": [
+            {
+                "name": "Nicolas Goetschel",
+                "url": "https://github.com/nicolasgoetschel"
+            }
+        ],
         "techStack": [
             "react",
             "js",
             "html",
             "css"
+        ]
+    },
+    {
+        "id": "4",
+        "name": "Hotel Booking System",
+        "image": "hotelbookingsystem.png",
+        "repo": "hotel-booking-react",
+        "demo": "",
+        "blurb": "An app to manage hotel bookings",
+        "collaborators": [
+            {
+                "name": "Seb Shingler",
+                "url": "https://github.com/sshingler"
+            }
+        ],
+        "techStack": [
+            "react",
+            "js",
+            "html",
+            "css",
+            "express",
+            "mongodb"
         ]
     }
 ]

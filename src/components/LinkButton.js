@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const LinkButton = ({ href, text }) => {
     return (
-        <LinkButtonStyled href={href} target="_blank">
+        <LinkButtonStyled href={href} target="_blank" rel="noreferrer">
             {text}
         </LinkButtonStyled>);
 }

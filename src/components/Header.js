@@ -1,5 +1,6 @@
 import Panel from "./Panel";
 import styled from "styled-components";
+import LinkButton from "./LinkButton";
 
 const Header = () => {
     return (
@@ -7,6 +8,12 @@ const Header = () => {
             <SiteHeader>
                 <HeaderTitle>Timo Henderson</HeaderTitle>
                 <SubTitle>Software Developer</SubTitle>
+                <div>
+                    <LinkButton href="https://github.com/TimoHenderson" text="GitHub" />
+                    <LinkButton href="https://www.linkedin.com/in/timo-henderson-51a9516b" text="LinkedIn" />
+                    <LinkButton href="mailto: tjhenderson2@gmail.com" text="Email" />
+
+                </div>
             </SiteHeader>
         </Panel>
     );

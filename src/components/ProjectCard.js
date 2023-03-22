@@ -3,10 +3,12 @@ import styled from "styled-components";
 import LinkButton from "./LinkButton";
 import Panel from "./Panel";
 import TechStack from "./TechStack";
+import Collaborators from "./Collaborators";
 
 
 const ProjectCard = ({ project }) => {
     const image = require(`../assets/img/${project.image}`)
+
     return (
         <CardPanel>
             <ProjectTitle background={image}>
@@ -19,7 +21,9 @@ const ProjectCard = ({ project }) => {
             <ProjectButtons>
                 <LinkButton href={project.repo} text="Repo" />
                 {project.demo !== "" && <LinkButton href={project.demo} text="Demo" />}
+                {project.collaborators.length !== 0 && <Collaborators collaborators={project.collaborators} />}
             </ProjectButtons>
+
 
         </CardPanel>);
 }
@@ -38,6 +42,8 @@ const ProjectTitle = styled.div`
    align-items: flex-end;
    padding:1rem;
    border: 10px solid ${props => props.theme.darkest};
+   box-shadow: inset 0 0 2rem #00000055;
+  
    
    h2{  
         background-color: ${props => props.theme.darkest + 99};

@@ -1,24 +1,28 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactOriginal, JavascriptOriginal, Html5Original, Css3Original, PythonOriginal, FlaskOriginal, PostgresqlOriginal } from 'devicons-react';
+import { ReactOriginal, JavascriptOriginal, Html5Original, Css3Original, PythonOriginal, FlaskOriginal, PostgresqlOriginal, ExpressOriginal, MongodbOriginal } from 'devicons-react';
 
 const TechStack = ({ techStack }) => {
     const techStackNodes = techStack.map((tech, index) => {
         switch (tech) {
             case 'react':
-                return <ReactOriginal key={index} size="100%" />
+                return <TechItem><ReactOriginal key={index} size="100%" /><p>React</p></TechItem>
             case 'js':
-                return <JavascriptOriginal key={index} size="100%" />
+                return <TechItem><JavascriptOriginal key={index} size="100%" /><p>Javascript</p></TechItem>
             case 'html':
-                return <Html5Original key={index} size="100%" />
+                return <TechItem><Html5Original key={index} size="100%" /><p>HTML5</p></TechItem>
             case 'css':
-                return <Css3Original key={index} size="100%" />
+                return <TechItem><Css3Original key={index} size="100%" /><p>CSS3</p></TechItem>
             case 'python':
-                return <PythonOriginal key={index} size="100%" />
+                return <TechItem><PythonOriginal key={index} size="100%" /><p>Python3</p></TechItem>
             case 'flask':
-                return <FlaskOriginal key={index} size="100%" />
+                return <TechItem><FlaskOriginal key={index} size="100%" color="white" /><p>Flask</p></TechItem>
             case 'postgres':
-                return <PostgresqlOriginal key={index} size="100%" />
+                return <TechItem><PostgresqlOriginal key={index} size="100%" /><p>Postgresql</p></TechItem>
+            case 'express':
+                return <TechItem><ExpressOriginal key={index} size="100%" /><p>Express</p></TechItem>
+            case 'mongodb':
+                return <TechItem><MongodbOriginal key={index} size="100%" /><p>MongoDB</p></TechItem>
             default:
                 return null;
 
@@ -29,8 +33,23 @@ const TechStack = ({ techStack }) => {
 
 const TechStackStyled = styled.div`
     display:flex;
+    justify-content: space-around;
     height:3rem;
-    padding: 0.5rem 1rem 1rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: ${props => props.theme.dark};
+    margin: 0 0.5rem 0 0.5rem;
 `;
+
+const TechItem = styled.div`
+    display:grid;
+    grid-template-rows: 4fr 1fr;
+
+    p{margin:0;
+        font-size:x-small;
+        line-height: 1;
+        text-align: center;
+
+    }
+`
 
 export default TechStack;
