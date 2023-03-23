@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://timohenderson.github.io",
   "dependencies": {
+    "@styled-icons/boxicons-logos": "^10.47.0",
+    "@styled-icons/boxicons-regular": "^10.47.0",
     "@szhsin/react-menu": "^3.5.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

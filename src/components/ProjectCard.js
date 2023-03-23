@@ -30,6 +30,10 @@ const ProjectCard = ({ project }) => {
 
 const CardPanel = styled(Panel)`
     padding:0;  
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 `;
 
 const ProjectTitle = styled.div`
@@ -53,7 +57,10 @@ const ProjectTitle = styled.div`
 `;
 
 const ProjectDetails = styled.div`
-    padding:0.5rem 1.5rem 0.5rem 1.5rem;
+    padding:1rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
 
    p{
         text-align:center;
@@ -65,6 +72,7 @@ const ProjectButtons = styled.div`
     display:flex;
     justify-content: space-around;
     margin:1rem;
+    margin-top:auto;
 `
 
 export default ProjectCard;

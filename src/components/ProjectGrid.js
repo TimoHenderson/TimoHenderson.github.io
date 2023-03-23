@@ -37,7 +37,7 @@ const StyledGrid = styled.main`
 
 const TitlePanel = styled(Panel)`
     padding:1rem;
-    margin-bottom:0;
+   
 `;
 
 export default ProjectGrid;

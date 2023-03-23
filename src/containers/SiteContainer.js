@@ -1,22 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import projectData from '../data/projects.json'
 import Header from "../components/Header";
-import About from "../components/About";
+// import About from "../components/About";
 import ProjectGrid from "../components/ProjectGrid";
 
 
 
 const SiteContainer = () => {
 
-    const [projects, setProjects] = useState(projectData);
+    const [projects, setProjects] = useState([]);
 
+    useEffect(() => {
+        setProjects(projectData);
+    }, [])
 
 
     return (
         <StyledMainContainer>
             <Header />
-            <About />
+            {/* <About /> */}
             <ProjectGrid projects={projects} />
         </StyledMainContainer>
     );
