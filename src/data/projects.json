@@ -31,6 +31,36 @@
         ]
     },
     {
+        "id": "5",
+        "name": "Atlas Wealth",
+        "image": "atlaswealth.png",
+        "repo": "hatlas-wealth",
+        "demo": "",
+        "blurb": "An full stack app to track shares drawing data from Finnhub Api",
+        "collaborators": [
+            {
+                "name": "Ross Condie",
+                "url": "https://github.com/rosscondie"
+            },
+            {
+                "name": "Chris Barclay",
+                "url": "https://github.com/doublerdiner"
+            },
+            {
+                "name": "Neil Burgoyne",
+                "url": "https://github.com/Neil-Burgoyne"
+            }
+        ],
+        "techStack": [
+            "react",
+            "js",
+            "html",
+            "css",
+            "express",
+            "mongodb"
+        ]
+    },
+    {
         "id": "3",
         "name": "Brewdog Beer Browser",
         "image": "brewdogbeers.png",
