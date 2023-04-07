@@ -34,7 +34,7 @@
         "id": "5",
         "name": "Atlas Wealth",
         "image": "atlaswealth.png",
-        "repo": "atlas-wealth",
+        "repo": "https://github.com/TimoHenderson/atlas-wealth",
         "demo": "",
         "blurb": "An full stack app to track shares drawing data from Finnhub Api",
         "collaborators": [
