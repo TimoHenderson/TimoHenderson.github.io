@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.578b8e14.css",
-    "main.js": "/static/js/main.9ef52cee.js",
+    "main.js": "/static/js/main.788f4527.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/atlaswealth.png": "/static/media/atlaswealth.b0ae342245169c98a751.png",
     "static/media/catchemall.png": "/static/media/catchemall.93d49ee0458326ea1d19.png",
     "static/media/brewdogbeers.png": "/static/media/brewdogbeers.39f7670c10beff539087.png",
     "static/media/recordingtracker.png": "/static/media/recordingtracker.c76ff8e3f06a7b2794f5.png",
-    "static/media/atlaswealth.png": "/static/media/atlaswealth.ac5ec7cc8d8d952c15ba.png",
     "static/media/hotelbookingsystem.png": "/static/media/hotelbookingsystem.2834f7a50350f4bead15.png",
     "index.html": "/index.html",
     "main.578b8e14.css.map": "/static/css/main.578b8e14.css.map",
-    "main.9ef52cee.js.map": "/static/js/main.9ef52cee.js.map",
+    "main.788f4527.js.map": "/static/js/main.788f4527.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.578b8e14.css",
-    "static/js/main.9ef52cee.js"
+    "static/js/main.788f4527.js"
   ]
 }
