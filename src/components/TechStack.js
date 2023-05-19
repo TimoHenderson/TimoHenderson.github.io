@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactOriginal, JavascriptOriginal, Html5Original, Css3Original, PythonOriginal, FlaskOriginal, PostgresqlOriginal, ExpressOriginal, MongodbOriginal } from 'devicons-react';
+import { ReactOriginal, JavascriptOriginal, Html5Original, Css3Original, PythonOriginal, FlaskOriginal, PostgresqlOriginal, ExpressOriginal, MongodbOriginal, JavaOriginal, SpringOriginalWordmark } from 'devicons-react';
 
 const TechStack = ({ techStack }) => {
     const techStackNodes = techStack.map((tech, index) => {
@@ -23,6 +23,10 @@ const TechStack = ({ techStack }) => {
                 return <TechItem><ExpressOriginal key={index} size="100%" /><p>Express</p></TechItem>
             case 'mongodb':
                 return <TechItem><MongodbOriginal key={index} size="100%" /><p>MongoDB</p></TechItem>
+            case 'java':
+                return <TechItem><JavaOriginal key={index} size="100%" /><p>Java</p></TechItem>
+            case 'spring':
+                return <TechItem><SpringOriginalWordmark key={index} size="100%" /><p>Spring</p></TechItem>
             default:
                 return null;
 

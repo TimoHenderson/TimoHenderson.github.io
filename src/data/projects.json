@@ -1,5 +1,22 @@
 [
     {
+        "id": "0",
+        "name": "RPGMusicCompanion",
+        "image": "rpgmusiccompanion.png",
+        "repo": "https://github.com/TimoHenderson/RPGMusicCompanion",
+        "demo": "",
+        "blurb": "An adaptive music player for RPGs. Using websockets for parameter control",
+        "collaborators": [],
+        "techStack": [
+            "java",
+            "spring",
+            "react",
+            "js",
+            "html",
+            "css"
+        ]
+    },
+    {
         "id": "1",
         "name": "Catch 'em All",
         "image": "catchemall.png",
