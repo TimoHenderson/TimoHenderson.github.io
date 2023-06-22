@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const LinkButton = ({ href, text, clickHandler }) => {
 
-    console.log(href)
     if (!href) {
         return (
             <ButtonStyled onClick={clickHandler}>
