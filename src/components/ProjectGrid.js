@@ -5,6 +5,7 @@ import Panel from "./Panel";
 import { devices } from "../helpers/ScreenSizes";
 
 const ProjectGrid = ({ projects }) => {
+
     const projectNodes = projects.map((project) => (
         <ProjectCard key={project.id} project={project} />
     ));

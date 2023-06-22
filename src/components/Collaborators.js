@@ -10,8 +10,8 @@ import '@szhsin/react-menu/dist/transitions/slide.css';
 
 
 const Collaborators = ({ collaborators }) => {
-    const collaboratorNodes = collaborators.map((collaborator) => {
-        return <MenuItem><a href={collaborator.url} target="_blank" rel="noreferrer">{collaborator.name}</a></MenuItem>
+    const collaboratorNodes = collaborators.map((collaborator, index) => {
+        return <MenuItem key={collaborator.url + index}><a href={collaborator.url} target="_blank" rel="noreferrer">{collaborator.name}</a></MenuItem>
     })
     return (
         <StyledMenu menuButton={<StyledMenuButton>Collaborators</StyledMenuButton>} transition>

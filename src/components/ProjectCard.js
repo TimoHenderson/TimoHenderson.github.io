@@ -8,7 +8,7 @@ import VideoModal from "./VideoModal";
 import ProjectButtons from "./ProjectButtons";
 
 
-const ProjectCard = ({ project }) => {
+const ProjectCard = ({ project, }) => {
     const image = require(`../assets/img/${project.image}`)
 
     return (

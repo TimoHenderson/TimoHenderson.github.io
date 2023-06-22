@@ -1,6 +1,6 @@
 import Modal from 'styled-react-modal'
-import { useState } from 'react'
-import parse from 'html-react-parser'
+import { useState, useEffect } from 'react'
+
 import Panel from './Panel'
 import LinkButton from './LinkButton'
 import ProjectButtons from './ProjectButtons'
@@ -15,6 +15,15 @@ const VideoModal = ({ project }) => {
     const toggleModal = (e) => {
         setIsOpen(!isOpen)
     }
+
+
+    useEffect(() => {
+        const params = new URLSearchParams(document.location.search);
+        const videoId = params.get('video');
+        if (videoId === project.id) {
+            setIsOpen(true)
+        }
+    }, [project]);
 
 
     return (

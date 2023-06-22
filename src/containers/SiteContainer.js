@@ -8,9 +8,12 @@ import { ModalProvider } from "styled-react-modal";
 
 
 
+
 const SiteContainer = () => {
 
     const [projects, setProjects] = useState([]);
+
+
 
     useEffect(() => {
         setProjects(projectData);
