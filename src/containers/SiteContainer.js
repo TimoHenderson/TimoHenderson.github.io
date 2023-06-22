@@ -4,6 +4,7 @@ import projectData from '../data/projects.json'
 import Header from "../components/Header";
 // import About from "../components/About";
 import ProjectGrid from "../components/ProjectGrid";
+import { ModalProvider } from "styled-react-modal";
 
 
 
@@ -17,11 +18,13 @@ const SiteContainer = () => {
 
 
     return (
-        <StyledMainContainer>
-            <Header />
-            {/* <About /> */}
-            <ProjectGrid projects={projects} />
-        </StyledMainContainer>
+        <ModalProvider>
+            <StyledMainContainer>
+                <Header />
+                {/* <About /> */}
+                <ProjectGrid projects={projects} />
+            </StyledMainContainer>
+        </ModalProvider>
     );
 }
 

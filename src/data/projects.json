@@ -5,6 +5,7 @@
         "image": "rpgmusiccompanion.png",
         "repo": "https://github.com/TimoHenderson/RPGMusicCompanion",
         "demo": "",
+        "video": "",
         "blurb": "An adaptive music player for RPGs. Using websockets for parameter control",
         "collaborators": [],
         "techStack": [
@@ -23,6 +24,7 @@
         "image": "catchemall.png",
         "repo": "https://github.com/TimoHenderson/kanto-pokemon-react",
         "demo": "https://timohenderson.github.io/kanto-pokemon-react",
+        "video": "",
         "blurb": "A maths game which rewards the user with Pokemon! Fetches data from the PokeApi.",
         "collaborators": [],
         "techStack": [
@@ -38,6 +40,8 @@
         "image": "recordingtracker.png",
         "repo": "https://github.com/TimoHenderson/song_recording_tracker",
         "demo": "",
+        "video": " https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7076945634196414464?compact=1",
+        "linkedInPost": "https://www.linkedin.com/posts/timo-henderson_python-projects-softwaredevelopment-activity-7077170784166641664-YAtl?utm_source=share&utm_medium=member_desktop",
         "blurb": "An app to help with the complex task of recording music.",
         "collaborators": [],
         "techStack": [
@@ -54,6 +58,7 @@
         "image": "atlaswealth.png",
         "repo": "https://github.com/TimoHenderson/atlas-wealth",
         "demo": "",
+        "video": "",
         "blurb": "An full stack app to track shares drawing data from Finnhub Api",
         "collaborators": [
             {
@@ -84,6 +89,7 @@
         "image": "brewdogbeers.png",
         "repo": "https://github.com/TimoHenderson/brewdog-api-react",
         "demo": "https://timohenderson.github.io/brewdog-api-react",
+        "video": "",
         "blurb": "An app to browse Brewdog beers and track favourites.",
         "collaborators": [
             {
@@ -104,6 +110,7 @@
         "image": "hotelbookingsystem.png",
         "repo": "hotel-booking-react",
         "demo": "",
+        "video": "",
         "blurb": "An app to manage hotel bookings",
         "collaborators": [
             {
