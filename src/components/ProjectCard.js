@@ -4,6 +4,8 @@ import LinkButton from "./LinkButton";
 import Panel from "./Panel";
 import TechStack from "./TechStack";
 import Collaborators from "./Collaborators";
+import VideoModal from "./VideoModal";
+import ProjectButtons from "./ProjectButtons";
 
 
 const ProjectCard = ({ project }) => {
@@ -21,6 +23,7 @@ const ProjectCard = ({ project }) => {
             <ProjectButtons>
                 <LinkButton href={project.repo} text="Repo" />
                 {project.demo !== "" && <LinkButton href={project.demo} text="Demo" />}
+                {project.video !== "" && <VideoModal project={project} text="Video" />}
                 {project.collaborators.length !== 0 && <Collaborators collaborators={project.collaborators} />}
             </ProjectButtons>
 
@@ -68,11 +71,6 @@ const ProjectDetails = styled.div`
    }
 `;
 
-const ProjectButtons = styled.div`
-    display:flex;
-    justify-content: space-around;
-    margin:1rem;
-    margin-top:auto;
-`
+
 
 export default ProjectCard;
