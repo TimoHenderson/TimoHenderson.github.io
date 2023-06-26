@@ -5,7 +5,8 @@
         "image": "rpgmusiccompanion.png",
         "repo": "https://github.com/TimoHenderson/RPGMusicCompanion",
         "demo": "",
-        "video": "",
+        "linkedInPost": "https://www.linkedin.com/posts/timo-henderson_project-design-collaboration-activity-7079134497778081792-8xfs?utm_source=share&utm_medium=member_desktop",
+        "video": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7079132664196149251?compact=1",
         "blurb": "An adaptive music player for RPGs. Using websockets for parameter control",
         "collaborators": [],
         "techStack": [
